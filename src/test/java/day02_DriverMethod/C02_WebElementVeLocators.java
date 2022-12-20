@@ -19,8 +19,8 @@ public class C02_WebElementVeLocators {
         // Amazon sayfasına gidelim
         driver.get("https://amazon.com");
         // Search bölümünü locate edelim
-        //WebElement aramakutusu = driver.findElement(By.id("twotabsearchtextbox"));
-        WebElement aramakutusu = driver.findElement(By.name("field-keywords"));
+        WebElement aramakutusu = driver.findElement(By.id("twotabsearchtextbox"));
+       // WebElement aramakutusu = driver.findElement(By.name("field-keywords"));
         // Search bölümünde iphone aratalım
         aramakutusu.sendKeys("iphone", Keys.ENTER);
         /*

@@ -57,7 +57,7 @@ public class C01Examples01 {
             System.out.println("Konum TESTİ PASSED");
         }else System.out.println("Konum TESTİ FAILED");
         //ve sayfayı kapatalım
-      //  driver.close();
+        driver.close();
 
 
     }
